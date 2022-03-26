@@ -1,9 +1,10 @@
 body
 {
    color:lightcoral;
-   background-color:black;
+   background-color:green;
    border-style: ridge;
    border-color: grey;
+   
 }
 
 a:link 
@@ -12,16 +13,19 @@ a:link
 }
   
   /* visited link */
-  a:visited {
+  a:visited 
+{
     color: green;
-  }
+}
   
   /* mouse over link */
-  a:hover {
+  a:hover 
+{
     color: hotpink;
-  }
+}
   
   /* selected link */
-  a:active {
+  a:active 
+{
     color: lightblue;
-  }
+}
