@@ -1,10 +1,9 @@
-body
+*HEAD
 {
    color:lightcoral;
-   background-color:green;
+   background-color:bisque;
    border-style: ridge;
    border-color: grey;
-   
 }
 
 a:link 
@@ -15,7 +14,7 @@ a:link
   /* visited link */
   a:visited 
 {
-    color: green;
+    color: brown;
 }
   
   /* mouse over link */
