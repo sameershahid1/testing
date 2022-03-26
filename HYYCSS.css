@@ -1,0 +1,27 @@
+body
+{
+   color:lightcoral;
+   background-color:black;
+   border-style: ridge;
+   border-color: grey;
+}
+
+a:link 
+{
+    color: red;
+}
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: lightblue;
+  }
