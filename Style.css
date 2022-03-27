@@ -1,61 +1,42 @@
 body
 {
-   background-color:black;
-   color:azure;
+   background-color:#4190b5;
 }
 
-.Head
+#Head
 {
-   background-color:midnightblue;
-   border-style: ridge;
-   border-color: transparent;
-   border-radius:50%;
-   text-align: center;
+  color:Black;
+  background-color:whitesmoke;
+  border-radius: 15px;
+  border-color:transparent;
+  border-style: ridge;
+  text-align: center;
 }
 
-div p
+.Heading>h2
 {
-   font-size: 20px;
+  color:black; 
 }
 
-div>h2
+a:link
 {
-  border-color: green;
-  border-radius: 10px;
-  border-style: inset;
-  border-width: 5px;
+  color:red;
+}
+
+a:visited
+{
+  color:red;
+}
+
+a:hover
+{
+  color:red;
+}
+
+a:active
+{
+  color:black;
 }
 
 
-.Footer
-{
-  text-align-last: center; 
-}
 
-
-a:link 
-{
-  color:azure;
-}
-  
-  /* visited link */
-  a:visited 
-{
-   color: lightblue;
-}
-  
-  /* mouse over link */
-  a:hover 
-{
-    background-color:gray;
-    border: 2px;
-    border-color:aqua;
-    border-style:inset;
-    font-size: larger;
-}
-  
-  /* selected link */
-a:active 
-{
-  background-color:lightskyblue;
-}
