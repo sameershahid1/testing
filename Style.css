@@ -1,0 +1,61 @@
+body
+{
+   background-color:black;
+   color:azure;
+}
+
+.Head
+{
+   background-color:midnightblue;
+   border-style: ridge;
+   border-color: transparent;
+   border-radius:50%;
+   text-align: center;
+}
+
+div p
+{
+   font-size: 20px;
+}
+
+div>h2
+{
+  border-color: green;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 5px;
+}
+
+
+.Footer
+{
+  text-align-last: center; 
+}
+
+
+a:link 
+{
+  color:azure;
+}
+  
+  /* visited link */
+  a:visited 
+{
+   color: lightblue;
+}
+  
+  /* mouse over link */
+  a:hover 
+{
+    background-color:gray;
+    border: 2px;
+    border-color:aqua;
+    border-style:inset;
+    font-size: larger;
+}
+  
+  /* selected link */
+a:active 
+{
+  background-color:lightskyblue;
+}
