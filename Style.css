@@ -1,11 +1,22 @@
 .Web-Body
 {
-  background:rgba(236, 231, 231, 0.932);
-   max-width:1000px;
+   background:rgba(236, 231, 231, 0.932);
    border-style:solid;
    border-radius:20px;
-   margin-left:130px;
    border-color: transparent;
+   padding-bottom:500px;
+}
+
+#Head
+{
+  color:rgba(0, 0, 0, 0.301);
+  background-color:transparent;
+  border-bottom-color:whitesmoke;
+  border-radius: 15px;
+  border-style:inset;
+  text-align: center;
+  margin-left:200px;
+  margin-right:200px;
 }
 
 .Tag1>a:link
@@ -59,18 +70,6 @@
   background-color: rgba(117, 1, 1, 0.288);
 }
 
-#Head
-{
-  color:rgba(0, 0, 0, 0.301);
-  background-color:transparent;
-  border-bottom-color:whitesmoke;
-  border-radius: 15px;
-  border-style:inset;
-  text-align: center;
-  margin-left:200px;
-  margin-right:200px;
-}
-
 .Heading>h2
 {
   color:black; 
@@ -78,8 +77,29 @@
   border-bottom-style:solid;
   margin-right:200px;
   margin-left:200px;
+  margin-right:200px;
 }
 
+.Data1
+{
+  border:1px solid transparent;
+  margin-left:200px;
+  margin-right:300px;
+}
+
+.Response
+{
+  border: 1px solid transparent;
+  max-width:180px;
+  margin-left:500px;
+}
+
+.Footer
+{
+  border: 1px solid tra;
+  max-width:280px;
+  margin-left:200px;
+}
 #Head a:link
 {
   color:red;
@@ -105,6 +125,7 @@
   color:rgb(120,120,200);
   border-radius:5px;
   border-style: outset;
+  margin-left:20px;
   font-size:20px;
 }
 
@@ -117,7 +138,6 @@
 {
   color:rgb(0, 100, 200);
   font-size: 25px;
-
 }
 
 .CONTACT a:active
@@ -126,3 +146,19 @@
   background-color:lightblue;
 }
 
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
