@@ -1,42 +1,128 @@
-body
+.Web-Body
 {
-   background-color:#4190b5;
+  background:rgba(236, 231, 231, 0.932);
+   max-width:1000px;
+   border-style:solid;
+   border-radius:20px;
+   margin-left:130px;
+   border-color: transparent;
+}
+
+.Tag1>a:link
+{
+   border-style:solid;
+   margin-left:200px;
+   border-color:transparent;
+   background-color:transparent;
+}
+
+.Tag1>a:visited
+{
+  color:rgba(228, 89, 55, 0.712);
+  font-size:20px;
+}
+
+.Tag1>a:hover
+{
+  border-color:rgba(117, 1, 1, 0.288);;
+  font-size:20px;
+}
+
+.Tag1>a:active
+{
+  border-radius:20;
+  background-color: rgba(117, 1, 1, 0.288);
+}
+
+.Tag2>a:link
+{
+   border-style:solid;
+   border-color:transparent;
+   background-color:transparent;
+}
+
+.Tag2>a:visited
+{
+  color:rgba(228, 89, 55, 0.712);
+  font-size:20px;
+}
+
+.Tag2>a:hover
+{
+  border-color:rgba(117, 1, 1, 0.288);;
+  font-size:20px;
+}
+
+.Tag2>a:active
+{
+  border-radius:20;
+  background-color: rgba(117, 1, 1, 0.288);
 }
 
 #Head
 {
-  color:Black;
-  background-color:whitesmoke;
+  color:rgba(0, 0, 0, 0.301);
+  background-color:transparent;
+  border-bottom-color:whitesmoke;
   border-radius: 15px;
-  border-color:transparent;
-  border-style: ridge;
+  border-style:inset;
   text-align: center;
+  margin-left:200px;
+  margin-right:200px;
 }
 
 .Heading>h2
 {
   color:black; 
+  border-bottom-color:red;
+  border-bottom-style:solid;
+  margin-right:200px;
+  margin-left:200px;
 }
 
-a:link
+#Head a:link
 {
   color:red;
 }
 
-a:visited
+#Head a:visited
 {
   color:red;
 }
 
-a:hover
+#Head a:hover
 {
-  color:red;
+  color:rgb(65, 144, 181);
 }
 
-a:active
+#Head a:active
 {
-  color:black;
+  color:rgb(0, 100, 200);
 }
 
+.CONTACT a:link
+{
+  color:rgb(120,120,200);
+  border-radius:5px;
+  border-style: outset;
+  font-size:20px;
+}
 
+.CONTACT a:visited
+{
+  color:rgb(120,120,200);
+}
+
+.CONTACT a:hover
+{
+  color:rgb(0, 100, 200);
+  font-size: 25px;
+
+}
+
+.CONTACT a:active
+{
+  color:rgb(0, 100, 200);
+  background-color:lightblue;
+}
 
