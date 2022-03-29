@@ -1,1 +1,60 @@
-sdf
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva,Verdana, sans-serif;
+    background: rgb(58,144,65);
+    background: -moz-linear-gradient(90deg, rgba(58,144,65,1) 0%, rgba(14,61,37,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(58,144,65,1) 0%, rgba(14,61,37,1) 100%);
+    background: linear-gradient(90deg, rgba(58,144,65,1) 0%, rgba(14,61,37,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3a9041",endColorstr="#0e3d25",GradientType=1);    
+}
+
+.HEAD
+{
+   width:1800px;
+   border:1px solid transparent;
+   margin:-8px;
+   padding:10px;
+   background: rgb(9,111,18);
+   background: -moz-linear-gradient(90deg, rgba(9,111,18,1) 55%, rgba(12,114,140,1) 84%);
+   background: -webkit-linear-gradient(90deg, rgba(9,111,18,1) 55%, rgba(12,114,140,1) 84%);
+   background: linear-gradient(90deg, rgba(9,111,18,1) 55%, rgba(12,114,140,1) 84%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#096f12",endColorstr="#0c728c",GradientType=1);
+}
+
+header a:link
+{
+    width:200px;
+    border:5px none transparent;
+    margin:0px;
+    padding:10px;
+    color:rgba(236, 220, 220, 0.856);
+    background: rgb(40,120,47);
+    background: rgb(9,111,18);
+    background: -moz-linear-gradient(90deg, rgba(9,111,18,1) 55%,rgba(9,111,18,1) 84%);
+    background: -webkit-linear-gradient(90deg, rgba(9,111,18,1) 55%,rgba(9,111,18,1) 84%);
+    background: linear-gradient(90deg, rgba(9,111,18,1) 55%, rgba(9,111,18,1) 84%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#096f12",endColorstr="#0c728c",GradientType=1);
+}
+
+header a:visited
+{ 
+    border-color:transparent;
+    color:rgba(236, 220, 220, 0.856);
+}
+
+header a:hover
+{
+    color:rgba(214, 202, 202, 0.404);
+}
+
+header a:active
+{ 
+    
+}
+
+button
+{
+   font-size:60px;
+}
+
+
