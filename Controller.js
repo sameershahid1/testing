@@ -2,8 +2,16 @@
 
 function Fun()
 {
-    console.log("Fuck you");
+    document.getElementById("test").innerHTML="Welcome to fucker Land";
 }
 
 
-window.alert("Zohaib you are fucked");
+
+function $()
+{
+    const taker={Name:"Sameer",CGPA: 3.71};
+    alert(taker.Name);    
+}
+
+
+$();
