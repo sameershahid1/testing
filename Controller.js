@@ -1,17 +1,18 @@
 
-
-function Fun()
+function Next()
 {
-    document.getElementById("test").innerHTML="Welcome to fucker Land";
+    document.getElementById("sucker").src="Images/User2.jpg";
+    document.getElementsbyId("comment").inner="Zohaib the great Sucker";
 }
 
-
-
-function $()
+function Pre()
 {
-    const taker={Name:"Sameer",CGPA: 3.71};
-    alert(taker.Name);    
+    document.getElementById("sucker").src="Images/User1.jpg";
 }
 
+const str="   Sameer shahid: rorroorrooorro   ";
+const x=str.trim();
+document.write(x);
 
-$();
+
+
